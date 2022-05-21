@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nexkraft">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NexKraft">
+        <activity android:name=".Mealmsg"></activity>
+        <activity android:name=".Sister" />
+        <activity android:name=".Business" />
+        <activity android:name=".ITTeam" />
+        <activity android:name=".Admin" />
+        <activity android:name=".tamsg" />
+        <activity android:name=".ReqMsg" />
+        <activity android:name=".About" />
+        <activity android:name=".ViewPdf" />
+        <activity android:name=".Departments" />
+        <activity android:name=".TadaBill" />
+        <activity android:name=".Requisition" />
+        <activity android:name=".MealDetails" />
+        <activity android:name=".CancelMeal" />
+        <activity android:name=".AttendanceHIstory" />
+        <activity android:name=".LeaveQuota" />
+        <activity android:name=".LeaveApplication" />
+        <activity android:name=".Profile" />
+        <activity android:name=".WebmailSent" />
+        <activity android:name=".GetNKWebmail" />
+        <activity android:name=".Register" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

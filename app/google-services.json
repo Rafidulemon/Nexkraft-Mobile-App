@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15116810777",
+    "project_id": "nexkraft-11480",
+    "storage_bucket": "nexkraft-11480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15116810777:android:319a465d822b17a563c888",
+        "android_client_info": {
+          "package_name": "com.example.nexkraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15116810777-g28b5q406nt1g8d7crvn9qhriq86jki2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD28-y1at9Y2X9JenowZZIJAXIO_LeaYwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15116810777-g28b5q406nt1g8d7crvn9qhriq86jki2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

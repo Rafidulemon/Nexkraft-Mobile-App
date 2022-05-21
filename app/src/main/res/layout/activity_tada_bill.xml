@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TadaBill"
+    android:background="@drawable/bg_nk">
+    <EditText
+        android:id="@+id/leave_name2"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Enter your full name"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <EditText
+        android:id="@+id/leave_name3"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Purpose"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <EditText
+        android:id="@+id/leave_name5"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Bill Amount"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <EditText
+        android:id="@+id/leave_name4"
+        android:layout_width="299dp"
+        android:layout_height="102dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Transportation Details"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <EditText
+        android:id="@+id/datepick"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Pick Date"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="147dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TA-DA Bill"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/req_req"
+        android:layout_width="197dp"
+        android:layout_height="71dp"
+        android:text="TA-DA Bill request"
+        app:backgroundTint="#ED3640"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

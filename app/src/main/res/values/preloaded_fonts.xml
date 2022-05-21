@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/aldrich</item>
+        <item>@font/alef</item>
+        <item>@font/amaranth</item>
+        <item>@font/andada</item>
+        <item>@font/artifika</item>
+    </array>
+</resources>

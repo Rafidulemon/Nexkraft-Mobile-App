@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_nk"
+    tools:context=".GetNKWebmail">
+
+    <EditText
+        android:id="@+id/wm_name"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Enter your full name"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <EditText
+        android:id="@+id/wm_id"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Your employee ID"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/wm_number"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <EditText
+        android:id="@+id/wm_email"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:background="#11100000"
+        android:ems="10"
+        android:hint="Your existing email ID"
+        android:inputType="text|textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textColor="#156082"
+        android:textColorHint="#156082"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <Button
+        android:id="@+id/send_webmail_rqst"
+        android:layout_width="219dp"
+        android:layout_height="50dp"
+        android:text="Apply for Webmail"
+        app:backgroundTint="#EF3740"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

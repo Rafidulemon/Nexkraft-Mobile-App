@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="About us"
+            android:icon="@drawable/about_us"/>
+
+        <item
+            android:id="@+id/nav_departments"
+            android:title="Departments"
+            android:icon="@drawable/departments"/>
+        <item
+            android:id="@+id/nav_sister"
+            android:title="Sister Concern"
+            android:icon="@drawable/departments"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_baseline_logout"/>
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="Log Out"
+            android:icon="@drawable/ic_baseline_logout"/>
+    </group>>
+
+
+    <item
+        android:id="@+id/nav_contact_us"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_baseline_contacts_24"/>
+
+
+
+
+
+</menu>
